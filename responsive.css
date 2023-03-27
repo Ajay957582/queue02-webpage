@@ -1,0 +1,222 @@
+@media(max-width:728px){
+    #png img{
+        height: 300px;
+    }
+    #chameli{
+        font-size: 30px;
+        width: 400px;
+        /* border: 2px solid black; */
+    }
+    .spacer{
+        width:auto;
+        top: 0px;
+        right: 0px;
+       /*  border: 1px solid red; */
+    }
+    .hotspot{
+        width: auto;
+       /*  border: 1px solid white; */
+    }
+    #animationbox{
+        width: 407px;
+    }
+    
+    @keyframes ajay1{
+        from{
+             width: 0px;
+        }to{
+             width:400px ;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width:566px) {
+    #png img{
+        height: 200px;
+    }
+    #animationbox{
+        width: 315px;
+    }
+    #chameli{
+        font-size: 26px;
+        width: 400px;
+        /* border: 2px solid black; */
+        width: 312px;
+    }
+    .spacer{
+        height: 37px;
+        width:auto;
+        top: 0px;
+        right: 0px;
+       /*  border: 1px solid red; */
+    }
+    @keyframes ajay1{
+        from{
+             width: 0px;
+        }to{
+             width:315px ;
+        }
+    }
+    .loginpara1,.loginpara2,.loginpara3,.loginpara4,.loginpara5{
+        font-family:  Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;  
+    }
+}
+ 
+ 
+ 
+ 
+ @media (max-width:700px){
+    .navbutton a{
+        color: #3d71e6;;
+        opacity: 0;
+        font-size: 30px;
+        font-family:sans-serif ;
+        text-align: center;
+        /* font-weight: 800; */
+        animation-name: ajaylala;
+        animation-duration: 2s;
+        /* animation-delay: 1s; */
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+        animation-iteration-count:1;
+    }
+    @keyframes ajaylala {
+        from{
+           opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    .register a , .register{
+        color: white;
+        opacity: 0;
+        font-size: 20px;
+        font-family:sans-serif ;
+        text-align: center;
+        font-weight: 800;
+        animation-name: ajaylala;
+        animation-duration: 2s;
+        /* animation-delay: 1s; */
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+        animation-iteration-count:1;
+    }
+    @keyframes ajaylala {
+        from{
+           opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    .btnplusregister{
+        width:max-content;
+        margin: auto; 
+    }
+   .navbutton ,.register {
+    display: none;
+    width:max-content;
+    margin: auto;
+   }
+   .hamburger{
+    display:block;
+    cursor: pointer;
+    position: absolute;
+    right: 18px;
+    top: 17px;
+}
+.navlogo img{
+    position: absolute;
+    left: -21px;
+    top: -74px;
+}
+.btnplusregister{
+    flex-direction:column;
+}
+#login{
+margin-top: 10px;
+background-color: #004cff;
+/* border: 2px solid #004cff; */
+}
+#register{
+    background-color: #004eff;
+    /* border: 2px solid #004cff; */
+}
+
+}
+
+/* =======================================================section three mediaa query */
+@media(max-width:1233px){
+    .subsection1a,.subsection2a,.subsection3a,.subsection4a,.subsection5a{
+        margin-top: 57px;
+        margin: auto;
+    }
+}
+@media(max-width:967px){
+   .subsection{
+    flex-direction: column;
+   }
+   #subsection1 ,#subsection2,#subsection3,#subsection4,#subsection5{
+    flex-direction:column;
+    margin-top: 35px;
+   }
+  h2 ,.subsection2b h2,.subsection4b h2{
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.navbarheight{
+    height: 400px;
+    transition: 1s ease-in-out;
+    background-color:white;
+}
+.forline1{
+  transform: rotate(45deg);
+  position: absolute;
+  top: 9px;
+  right:0px;
+  transition: 1s ease-in-out;
+}
+.forline2{
+  opacity: 0;
+  
+}
+.forline3{
+    transform: rotate(-45deg);
+    top: 7px;
+    right: -3px;
+    transition: 1s ease-in-out;
+}
+.togglemenu{
+    display: block;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+.newregister{
+    display: block;
+    margin-top: 20px;
+}
+
+
+
+ 

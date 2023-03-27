@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>indexpage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&family=DM+Serif+Display&family=Source+Code+Pro:wght@257&    display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&family=DM+Serif+Display&family=Source+Code+Pro:wght@257&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <section id="top">
+
+    </section>
+    <!---------------------------------------------------------------------------------------------------------------------------------->
+    <header>
+        <nav>
+            <div class="navlogo">
+                <img src="digital.png" alt="">
+            </div>
+        <div class="btnplusregister">
+            <div class="navbutton">
+                <div class="btns"><a href="#">Home</a></div>
+                <div class="btns"><a href="#">About</a></div>
+                <div class="btns"><a href="#">Slots</a></div>
+            </div>
+            <div class="register">
+                <div id="register"><a href="#">sign in</a></div>
+                <div id="login"><a href="#">sign up</a></div>
+            </div>
+            <div class="hamburger">
+                <div class="line" id="line1"></div>
+                <div class="line" id="line2"></div>
+                <div class="line" id="line3"></div>
+            </div>
+        </div>
+        </nav>
+    </header>
+    <!--------------------------------------------------------------------------------------------------------------------------------->
+    <section id="two">
+        <div id="animationbox">
+            <h1>HELLO,</h1>
+            <div class="hotspot">
+                <p id="chameli">Stop Making Queue...</p>
+                <div class="spacer"></div>
+            </div>
+    
+        </div>
+        <div id="png">
+             <img src="queue.png" alt="">
+        </div>
+    </section>
+
+<!--   ====================================================================================  section three starts from here-->
+    <section id="three">
+    <div class="subsection" id="subsection1">
+         <div class="subsection1a">
+            <img src="login.png" alt="image not found">
+         </div>
+         <div class="subsection1b">
+           <h2>LOGIN</h2>
+           <div class="loginpara1">
+          Firstly, you need to make an account for this website . For this do sign up , enter all asked detais , fill the form and submit by this you will register yourself . Also do varify the Email and phone number . Secondly Login with the id password you created , create profile . If you want to register your place on this site , than upgrade your profile account for that , by this you will complete your firset step.
+           </div>
+        </div>
+    </div>
+    <div class="subsection" id="subsection2">
+        <div class="subsection2a">
+            <img src="click.png" alt="image not found">
+         </div>
+         <div class="subsection2b">
+           <h2>GO TO SLOTS</h2>
+           <div class="loginpara2">
+          Have a look at menu bar at top (if you are using desktop), for mobile phones you will see a hamburger menu at top right corner . In slots section you will see various profiles on home screens , which are registerd places . you will see profiles on the basis of your past serarches , and your location . Till here yo have complted step number two .
+           </div>
+        </div>
+
+    </div>
+    <div class="subsection" id="subsection3">
+        <div class="subsection3a">
+            <img src="search-bar.png" alt="image not found">
+         </div>
+         <div class="subsection3b">
+           <h2>SEARCH</h2>
+           <div class="loginpara3">
+            For finding your desired place , you need to go in slots section , you will find a search box there , click on searchbox , search for your place by there name or by there number , if you want to register your place click on "register your place below "  , fill all details upgrade your profile , and get your crowded place ready for giving a hassalfree experience to your customers . Till here you have completed your step third.
+           </div>
+        </div>
+
+    </div>
+    <div class="subsection" id="subsection4">
+        <div class="subsection4a">
+            <img src="checkbox.png" alt="image not found">
+         </div>
+         <div class="subsection4b">
+           <h2>BOOK SLOT</h2>
+           <div class="loginpara4">
+            Click on the profile of the place you are finding , the whole profile of that place will get opened on your screen , there you will get to know all details , for example timing , any important notfication , message ,closed dates etc . Here you can book your slot online , and you will get date and time accordingly for you turn . This was last second step.
+           </div>
+        </div>
+
+    </div>
+    <div class="subsection" id="subsection5">
+        <div class="subsection5a">
+            <img src="watch.png" alt="image not found">
+         </div>
+         <div class="subsection5b">
+           <h2>SAVE TIME</h2>
+           <div class="loginpara5">
+         Once you have booked your slot successfully , you get timings and all details . This is best thing that now you dont need stand ina long queue for hours , this will surely save your time . If this site really helped to save your time than dont forget to rate us , and give reviews for new clients , and share this site with others , now you have complted all steps to go furtur , Best Of Luck.
+           </div>
+        </div>
+
+    </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+        <script>
+            let spell = document.querySelector("#chameli");
+            
+            function change(sentence){
+                spell.innerHTML = sentence;
+            }
+            function guccha(){
+            setTimeout(change,4000,"Do not waste time...");
+            setTimeout(change,8000,"Login this website.");
+            setTimeout(change,12000,"Go in slot's section ");
+            setTimeout(change,16000,"Book online slots... ");
+            setTimeout(change,20000,"Get date and time...");
+            setTimeout(change,24000,"Stop making queue...");
+            }
+            guccha();
+            setInterval(guccha,28000);
+/*             hamberger script starts ===================================================*/   
+      let hamberger = document.querySelector('.hamburger');
+      let nav = document.querySelector('nav');
+      let line1 = document.querySelector('#line1');
+      let line2 = document.querySelector('#line2');
+      let line3 = document.querySelector('#line3');
+      let navbutton = document.querySelector('.navbutton');
+      let register = document.querySelector('.register');
+      let btnplusregister = document.querySelector('.btnplusregister');
+
+        hamberger.addEventListener("click",()=>{
+        nav.classList.toggle('navbarheight');
+        line1.classList.toggle('forline1');
+        line2.classList.toggle('forline2');
+        line3.classList.toggle('forline3');
+        navbutton.classList.toggle('togglemenu');
+        register.classList.toggle('newregister')
+      })
+           
+
+        </script>
+    </body>
